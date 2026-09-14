@@ -1,0 +1,78 @@
+/*Reset General de estilos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilo del header*/
+header {
+    background: gray;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+}
+
+body {
+
+    /*Estilo del body general*/
+    background-color: black;
+
+
+    /*Menú de Navagación*/
+    nav {
+        background-color: #109b1ca2;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 1rem;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: #17cf9e;
+        }
+    }
+
+
+    /*Estilo de las secciones*/
+    section{
+        background: linear-gradient(135deg, #9d2178, #741ba1);
+        color: #ffffff;
+        padding: 10px 15px;
+        border-radius: 1em;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+
+        h2{
+            padding-bottom: 1em;
+        }
+
+        a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: black;
+        }
+    }
+
+    footer{
+        background: gray;
+        color: black;
+        text-align: center;
+        padding: 2rem;
+    }
+}
